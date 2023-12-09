@@ -1,0 +1,62 @@
+.explore {
+    color: $black;
+    // .explore__title
+
+    &__title {
+        // color: $black;
+        text-align: center;
+        padding-top: 150px;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+
+        /* Quotation 40px Italic Light */
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    // .explore__subtitle
+
+    &__subtitle {
+        padding-top: 150px;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    // .explore__brands
+
+    &__brands {
+        margin-top: 60px;
+        display: flex;
+        gap: 40px;
+    }
+
+    // .explore__brand
+
+    &__brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // .explore__item
+
+    &__brand {
+        img {}
+
+        .brand__name {
+            color: var(--Black, #151618);
+            /* H3 Title 24px Light */
+            font-family: Cormorant;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

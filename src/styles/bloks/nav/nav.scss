@@ -40,12 +40,28 @@
 .menu__icon-group {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  gap: 10px;
 
   .icon__group-left {
     display: flex;
     gap: 20px;
   }
+
+  .icon__group-right {
+    input {
+      // background: url('./img/icon3.svg') no-repeat;
+      border: none;
+      outline: none;
+      height: 100%;
+    }
+
+    .search__btn {
+      border: none;
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
+
 }
 
 @media (max-width: $breakpoint768) {

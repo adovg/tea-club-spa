@@ -3,6 +3,16 @@
 @import "./styles/_media";
 @import "./fonts/fonts.scss";
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -55,3 +65,4 @@
 @import "./styles/bloks/nav/nav.scss";
 @import "./styles/bloks/header/header.scss";
 @import "./styles/bloks/footer/footer.scss";
+@import "./styles/bloks/explore/explore.scss";
