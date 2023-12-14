@@ -3,6 +3,9 @@
     // .explore__title
 
     &__title {
+        display: block;
+        max-width: 700px;
+        overflow: hidden;
         // color: $black;
         text-align: center;
         padding-top: 150px;
@@ -15,6 +18,31 @@
         font-style: italic;
         font-weight: 300;
         line-height: normal;
+
+        &-marked {
+            // position: absolute;
+            position: relative;
+            display: inline-block;
+            // height: 61px;
+            // width: 350px;
+            //   background-color: $lightBg;
+
+
+
+            // padding-bottom: 15px;
+            // padding-right: 80px;
+            .mark {
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                width: 64vw;
+                height: 61px;
+                background-image: linear-gradient(90deg, #f7f2ea 0%, #f7f2ea 80%);
+                background-size: cover;
+                background-position: right;
+            }
+        }
     }
 
     // .explore__subtitle
