@@ -29,19 +29,11 @@ html {
   overflow: hidden;
 }
 
-.section__wrapper {
-  padding-left: 80px;
-  padding-right: 80px;
-
-  @media (max-width: $breakpoint768) {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  @media (max-width: $breakpoint480) {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+.section__title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .btn {
@@ -66,3 +58,4 @@ html {
 @import "./styles/bloks/header/header.scss";
 @import "./styles/bloks/footer/footer.scss";
 @import "./styles/bloks/explore/explore.scss";
+@import "./styles/bloks/reviews/reviews.scss";
