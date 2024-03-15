@@ -4,9 +4,9 @@
 @import "./fonts/fonts.scss";
 
 :root {
-  --font-family: "Open Sans", sans-serif;
-  --second-family: "Cormorant", sans-serif;
-  --third-family: "IM FELL Great Primer SC", sans-serif;
+  $font-family: "Open Sans", sans-serif;
+  $second-family: "Cormorant", sans-serif;
+  $third-family: "IM FELL Great Primer SC", sans-serif;
 }
 
 html {
@@ -68,3 +68,4 @@ html {
 @import "./styles/bloks/reviews/reviews.scss";
 @import "./styles/bloks/blog/blog.scss";
 @import "./styles/bloks/subscribe/subscribe.scss";
+@import "./styles/bloks/prioritise/prioritise.scss";

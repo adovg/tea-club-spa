@@ -1,0 +1,45 @@
+.prioritise {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.section__title {
+    justify-content: center;
+}
+
+.prioritise__title {
+    display: flex;
+}
+
+.prioritise__items {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-area: 30px 49px;
+}
+
+.prioritise__item {
+    display: flex;
+    flex-direction: column;
+    // max-width: 248px;
+}
+
+.prioritise__subtitle {
+    // font-family: $font-family;
+    font-weight: 300;
+    font-size: 30px;
+    color: #151618;
+}
+
+.prioritise__text {
+    // font-family: $font-family;
+    font-weight: 600;
+    font-size: 20px;
+    color: #151618;
+}
+
+.prioritise__icon {
+    max-width: 60px;
+    max-height: 60px;
+}

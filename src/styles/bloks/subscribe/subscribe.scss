@@ -29,6 +29,13 @@
          .subscribe__content {
              max-width: 575px;
          }
+
+         .subscribe__form {
+             display: flex;
+             flex-direction: column;
+             max-width: 575px;
+             justify-content: space-between;
+         }
      }
 
 
@@ -52,60 +59,54 @@
      color: #151618;
  }
 
- .subscribe__form {
 
+ .placeholder__row {
      display: flex;
-     flex-direction: column;
-     max-width: 575px;
+     flex-direction: row;
+     align-items: center;
      justify-content: space-between;
 
-     .placeholder__row {
+     .input__mail {
+         text-decoration: none;
+         border: none;
+         border-bottom: 1px solid #b8b58b;
+         background: transparent;
+         height: 100%;
          display: flex;
-         flex-direction: row;
-         align-items: center;
-         justify-content: space-between;
+         flex-basis: 70%;
+         padding: 5px;
 
-         .input__mail {
+     }
+
+     input::placeholder {
+         font-family: var(--font-family);
+         font-weight: 300;
+         font-size: 20px;
+         line-height: 150%;
+         color: #b8b58b;
+     }
+
+     .subscribe__btn {
+         display: flex;
+         flex-basis: 0;
+         border: 1px solid #151618;
+         padding: 12px 41px;
+         background: #fff;
+
+         .input__submit {
              text-decoration: none;
              border: none;
-             border-bottom: 1px solid #b8b58b;
              background: transparent;
-             height: 100%;
-             display: flex;
-             flex-basis: 70%;
-             padding: 5px;
-
-         }
-
-         input::placeholder {
              font-family: var(--font-family);
              font-weight: 300;
              font-size: 20px;
-             line-height: 150%;
-             color: #b8b58b;
+             color: #151618;
          }
 
-         .subscribe__btn {
-             display: flex;
-             flex-basis: 0;
-             border: 1px solid #151618;
-             padding: 12px 41px;
-             background: #fff;
-
-             .input__submit {
-                 text-decoration: none;
-                 border: none;
-                 background: transparent;
-                 font-family: var(--font-family);
-                 font-weight: 300;
-                 font-size: 20px;
-                 color: #151618;
-             }
-
-         }
      }
-
  }
+
+
 
 
  .checkbox__row {
