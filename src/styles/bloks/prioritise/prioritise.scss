@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    grid-area: 30px 49px;
+    gap: 40px;
 }
 
 .prioritise__item {
@@ -42,4 +42,5 @@
 .prioritise__icon {
     max-width: 60px;
     max-height: 60px;
+    margin: auto;
 }
