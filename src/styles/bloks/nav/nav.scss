@@ -48,11 +48,15 @@
   }
 
   .icon__group-right {
+    display: flex;
+
     input {
       // background: url('./img/icon3.svg') no-repeat;
       border: none;
       outline: none;
       height: 100%;
+      //width: 100%;
+      flex-shrink: 2;
     }
 
     .search__btn {

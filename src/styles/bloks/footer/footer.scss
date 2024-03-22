@@ -3,3 +3,134 @@
   padding-bottom: 26px;
 }
 
+.footer__wrapper {
+  display: flex;
+  gap: 155px;
+}
+
+
+
+.footer__left {
+  display: flex;
+  gap: 213px;
+}
+
+.footer__left-items {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer__left-title {
+  font-family: $second-family;
+  font-weight: 400;
+  font-size: 24px;
+  color: #151618;
+}
+
+.footer__left-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__left-list-item {
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 16px;
+  color: #151618;
+}
+
+
+.footer__right {}
+
+.footer__right-title {
+  font-family: $second-family;
+  font-weight: 400;
+  font-size: 24px;
+  color: #151618;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer__right-block {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.footer__quotation {
+  max-width: 260px;
+
+  .footer__quotation-text {
+    font-family: $font-family;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    color: #151618;
+    margin-bottom: 20px;
+  }
+
+  .footer__quotation-author {
+    font-family: $font-family;
+    font-weight: 300;
+    font-size: 12px;
+    color: #151618;
+  }
+}
+
+
+
+.footer__contact {
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 13px;
+  color: #151618;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .footer__contact-text {}
+
+  .footer__contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-around;
+
+    .footer__contact-logo {}
+
+    .footer__contact-row {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+
+      .footer__contact-phone>a {
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 13px;
+        color: #151618;
+        text-decoration: none;
+      }
+
+      .footer__contact-mail>a {
+        color: #151618;
+      }
+    }
+  }
+
+
+
+
+
+  .footer__contact-social {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+
+
+.social__item {}
