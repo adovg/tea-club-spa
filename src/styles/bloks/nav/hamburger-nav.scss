@@ -1,6 +1,7 @@
 .mobile {
   display: none;
 }
+
 .burger {
   display: none;
   cursor: pointer;
@@ -53,25 +54,25 @@
 
   .menu__item-mobile {
     cursor: pointer;
-    a {
 
-    }
+    a {}
+
     &:hover {
       transition: 0.8s hover ease;
     }
   }
 }
 
-@media (max-width: $breakpoint768) {
-  .mobile {
-    margin: 10px;
-    padding: 10px;
-    display: flex; 
-    justify-content: flex-end;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  .burger__btn {
-    display: flex;
-  }
-} 
+// @media (max-width: $breakpoint768) {
+//   .mobile {
+//     margin: 10px;
+//     padding: 10px;
+//     display: flex; 
+//     justify-content: flex-end;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//   }
+//   .burger__btn {
+//     display: flex;
+//   }
+// } 
