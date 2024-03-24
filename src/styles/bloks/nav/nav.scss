@@ -73,18 +73,26 @@
 
 }
 
-// @media (max-width: $breakpoint768) {
-//   .menu__item {
-//     display: none;
-//   }
+@media (max-width: $breakpoint768) {
+  .menu__items {
+    display: none;
+  }
 
-//   .logo {
-//     display: none;
-//   }
+  // .logo {
+  //   display: none;
+  // }
 
-//   .navbar {
-//     display: none;
-//     //justify-content: flex-end;
-//     //align-items: center;
-//   }
-// }
+  // .navbar {
+  //   display: none;
+  //   //justify-content: flex-end;
+  //   //align-items: center;
+  // }
+}
+
+@media (max-width: $breakpoint480) {
+  .navbar {
+    overflow: hidden;
+    display: block;
+    padding: 10px 10px;
+  }
+}
