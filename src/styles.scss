@@ -41,6 +41,12 @@ html {
   line-height: normal;
 }
 
+@media (max-width: $breakpoint360) {
+  .section__title {
+    font-size: 24px;
+  }
+}
+
 .btn {
   padding: 15px 22px;
   font-size: 18px;

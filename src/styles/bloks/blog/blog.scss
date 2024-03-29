@@ -27,29 +27,39 @@
 .blog__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    //gap: 40px;
     margin-bottom: 60px;
 
     .blog__row {
         display: flex;
         flex-direction: row;
+        margin-bottom: 40px;
         gap: clamp(1.25rem, -11.25rem + 20vw, 3.75rem);
+        flex-wrap: wrap;
+        // max-width: 460px;
     }
 
     .blog__item {
         max-width: 540px;
+        flex-basis: 47%;
         display: flex;
         gap: 20px;
     }
 
 }
 
+.blog__image {
+    // max-width: 230px;
+    // max-height: 153px;
+    flex-shrink: 1;
+}
+
 .blog__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    .blog__image {}
+    flex-shrink: 2;
+    word-wrap: break-word;
 
     .blog__title {
         display: block;
@@ -59,6 +69,7 @@
         font-weight: 400;
         line-height: normal;
         text-wrap: balance;
+
     }
 
     .blog__author {
@@ -93,3 +104,64 @@
         display: none;
     }
 }
+
+
+
+@media screen and (max-width: $breakpoint1000) {
+
+    .blog__wrapper .blog__row {
+
+        margin-bottom: clamp(1.25rem, -11.25rem + 20vw, 3.75rem);
+
+        // max-width: 460px;
+    }
+
+
+    .blog__wrapper .blog__item {
+        //gap: 20px;
+        // max-width: 460px;
+        max-width: 542px;
+        flex-basis: 99%;
+    }
+
+    .blog__item:nth-child(even) {
+        margin-left: 98px;
+    }
+}
+
+@media screen and (max-width: $breakpoint768) {}
+
+@media screen and (max-width: $breakpoint768) {
+    .blog__wrapper .blog__item {
+        //gap: 20px;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    // .blog__item:nth-child(even) {
+    //     margin-left: 98px;
+    // }
+}
+
+
+@media (max-width: $breakpoint480) {
+    .blog__item:nth-child(even) {
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: $breakpoint360) {}
+
+
+
+
+// @media screen and (max-width: $breakpoint1000) {}
+
+// @media screen and (max-width: $breakpoint768) {}
+
+
+// @media (max-width: $breakpoint480) {}
+
+
+// @media (max-width: $breakpoint360) {}

@@ -44,3 +44,77 @@
         }
     }
 }
+
+@media screen and (max-width: $breakpoint1000) {
+    .clietns__reviews :nth-child(4) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: $breakpoint768) {
+    .clietns__reviews {
+        flex-wrap: wrap;
+        gap: 76px;
+        justify-content: center;
+    }
+
+    .review__item {
+        flex-basis: 280px;
+    }
+}
+
+
+@media screen and (min-width: $breakpoint480) {
+    .reviews {
+        margin-top: 60px;
+    }
+
+    .clietns__reviews {
+        gap: 20px;
+    }
+
+    .review__item {
+        flex-basis: 47%;
+    }
+}
+
+@media screen and (max-width: $breakpoint480) {
+    .reviews {
+        margin-top: 60px;
+    }
+
+    .clietns__reviews {
+        gap: 20px;
+    }
+
+    .review__item {
+        flex-basis: 220px;
+    }
+}
+
+
+@media screen and (max-width: $breakpoint360) {
+    .reviews {
+        margin-top: 80px;
+    }
+
+    .clietns__reviews :nth-child(n + 3) {
+        display: none;
+    }
+
+    // .clietns__reviews :nth-child(4) {
+    //     display: none;
+    // }
+
+    .review__item {
+        flex-basis: 340px;
+    }
+
+    .clietns__reviews {
+        gap: 30px;
+    }
+
+
+
+}
