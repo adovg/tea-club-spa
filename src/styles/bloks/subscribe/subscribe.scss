@@ -1,6 +1,4 @@
  .subscribe {
-     //  min-height: 525px;
-     //  min-width: 768px;
      padding-top: 100px;
      padding-bottom: 100px;
      background: url(./img/section_back2.png);
@@ -12,9 +10,6 @@
      background-color: $lightBg;
 
  }
-
-
-
 
  .subscribe__wrapper {
      display: flex;
@@ -106,9 +101,6 @@
      }
  }
 
-
-
-
  .checkbox__row {
      display: flex;
      align-items: flex-start;
@@ -124,3 +116,36 @@
          color: #151618;
      }
  }
+
+
+
+@media screen and (max-width: $breakpoint1000) {
+
+    .subscribe {
+        padding-top: 0px;
+        padding-bottom: 60px;   
+    }
+    .subscribe__title {
+        text-align: center;
+    }
+    .subscribe__wrapper  .subscribe__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .checkbox__row {
+        padding-top: 12px;
+    }
+}
+
+// @media screen and (max-width: $breakpoint768) {}
+
+
+// @media (max-width: $breakpoint480) {}
+
+
+@media (max-width: $breakpoint360) {
+    .subscribe__text {
+        font-size: 13px;
+    }
+}

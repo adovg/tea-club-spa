@@ -64,13 +64,17 @@ html {
   height: auto;
 }
 
-// @media (max-width: 1000px) {}
 
-// @media (max-width: 768px) {}
 
-// @media (max-width: 480px) {}
+// @media screen and (max-width: $breakpoint1000) {}
 
-// @media (max-width: 360px) {}
+// @media screen and (max-width: $breakpoint768) {}
+
+
+// @media (max-width: $breakpoint480) {}
+
+
+// @media (max-width: $breakpoint360) {}
 
 
 
