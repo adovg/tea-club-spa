@@ -1,6 +1,9 @@
 .footer {
   padding-top: 56px;
   padding-bottom: 26px;
+  background: #f7f2ea;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__wrapper {
@@ -42,14 +45,14 @@
 }
 
 
-.footer__right {}
+
 
 .footer__right-title {
   font-family: $second-family;
   font-weight: 400;
   font-size: 24px;
   color: #151618;
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
 }
 
@@ -90,7 +93,6 @@
   flex-direction: column;
   gap: 40px;
 
-  .footer__contact-text {}
 
   .footer__contact-info {
     display: flex;
@@ -98,8 +100,6 @@
     align-items: center;
     gap: 40px;
     justify-content: space-around;
-
-    .footer__contact-logo {}
 
     .footer__contact-row {
       display: flex;
@@ -131,6 +131,99 @@
   }
 }
 
+.footer__payment {
+  display: flex;
+  gap: clamp(1.938rem, -15.951rem + 37.27vw, 12rem);
+  margin-top: 55px;
+
+  .footer__copyright {
+    font-family: $font-family;
+    font-weight: 300;
+    font-size: 16px;
+    color: #151618;
+  }
+
+  .footer__payment-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer__payment-list-item {}
+}
 
 
-.social__item {}
+
+//// adaptive
+@media screen and (max-width: $breakpoint1000) {
+  .footer__wrapper {
+    display: flex;
+    gap: 54px;
+  }
+
+  .footer__left {
+    display: flex;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: $breakpoint768) {
+  .footer__right {}
+
+  .footer__contact {
+    max-width: 270px;
+  }
+
+  .footer__contact-social {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+
+  .footer__right-title {
+    margin-bottom: 5px;
+  }
+
+  .footer__right-block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+
+}
+
+
+@media (max-width: $breakpoint480) {
+
+
+
+  .footer__wrapper {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__quotation {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .footer__contact {
+    max-width: 470px;
+  }
+
+  .footer__contact-social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .footer__payment {
+    justify-content: space-between;
+  }
+
+}
+
+
+// @media (max-width: $breakpoint360) {}
