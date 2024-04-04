@@ -47,3 +47,31 @@
     max-height: 60px;
     margin: 40px auto;
 }
+
+
+@media screen and (max-width: $breakpoint1000) {
+    .prioritise__items {
+        margin: 0 60px;
+        justify-content: center;
+    }
+}
+
+// @media screen and (max-width: $breakpoint768) {}
+
+
+@media (max-width: $breakpoint480) {
+    .prioritise__items {
+        gap: 50px;
+    }
+}
+
+
+@media (max-width: $breakpoint360) {
+    .prioritise__subtitle {
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 20px;
+        color: #151618;
+        margin-bottom: 10px;
+    }
+}
