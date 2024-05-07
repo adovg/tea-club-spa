@@ -60,6 +60,16 @@
 
 
 @media (max-width: $breakpoint480) {
+
+    .prioritise {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .prioritise__title {
+        margin-bottom: 30px;
+    }
+
     .prioritise__items {
         gap: 50px;
     }
@@ -67,11 +77,21 @@
 
 
 @media (max-width: $breakpoint360) {
+
+    .prioritise {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .prioritise__subtitle {
         font-family: $font-family;
         font-weight: 300;
         font-size: 20px;
         color: #151618;
         margin-bottom: 10px;
+    }
+
+    .prioritise__items {
+        gap: 40px;
     }
 }

@@ -106,6 +106,10 @@
 }
 
 
+// .blog__row-hidden {
+//     // display: none !important;
+// }
+
 
 @media screen and (max-width: $breakpoint1000) {
 
@@ -145,6 +149,11 @@
 
 
 @media (max-width: $breakpoint480) {
+    .blog {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
     .blog__item:nth-child(even) {
         margin-left: 0px;
     }
@@ -161,7 +170,14 @@
 // @media screen and (max-width: $breakpoint768) {}
 
 
-// @media (max-width: $breakpoint480) {}
+@media (max-width: $breakpoint360) {
+    .blog {
+        // margin-top: 50px;
+        // margin-bottom: 50px;
+        margin: 50px 45px;
+    }
 
-
-// @media (max-width: $breakpoint360) {}
+    .blog__wrapper .blog__item {
+        flex-direction: column;
+    }
+}
