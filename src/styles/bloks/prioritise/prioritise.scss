@@ -48,7 +48,6 @@
     margin: 40px auto;
 }
 
-
 @media screen and (max-width: $breakpoint1000) {
     .prioritise__items {
         margin: 0 60px;
@@ -56,11 +55,7 @@
     }
 }
 
-// @media screen and (max-width: $breakpoint768) {}
-
-
 @media (max-width: $breakpoint480) {
-
     .prioritise {
         margin-top: 60px;
         margin-bottom: 60px;
@@ -75,9 +70,7 @@
     }
 }
 
-
 @media (max-width: $breakpoint360) {
-
     .prioritise {
         margin-top: 50px;
         margin-bottom: 50px;

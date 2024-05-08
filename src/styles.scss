@@ -22,10 +22,6 @@ html {
   margin: 0 auto;
   font-family: $Cormorant;
   padding: 0px 5px;
-  // overflow: hidden;
-  // @media (max-width: $breakpoint480) {
-  //   padding: 5px;
-  // }
 }
 
 .wrapper {
@@ -63,19 +59,6 @@ html {
   width: 100%;
   height: auto;
 }
-
-
-
-// @media screen and (max-width: $breakpoint1000) {}
-
-// @media screen and (max-width: $breakpoint768) {}
-
-
-// @media (max-width: $breakpoint480) {}
-
-
-// @media (max-width: $breakpoint360) {}
-
 
 
 @import "./styles/bloks/nav/hamburger-nav.scss";

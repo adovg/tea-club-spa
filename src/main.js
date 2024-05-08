@@ -6,10 +6,7 @@ window.onload = () => {
   const blogBtn = document.querySelector(".blog__all");
   let blogItem = document.querySelector(".blog__row-hidden");
 
-  window.addEventListener("load", () => {
-    alert("Страница загружена!");
-    showBlockItem();
-  });
+  showBlockItem();
 
   burgerBtn.onclick = function () {
     //burgerBtn.classList.toggle("active");
@@ -30,16 +27,13 @@ window.onload = () => {
     let screenWidth = window.innerWidth;
 
     if (screenWidth < 360) {
-      console.log("first");
       blogItem.classList.add("hidden");
     }
   }
 
-  showBlockItem();
-
   blogBtn.onclick = function () {
     blogItem.classList.toggle("hidden");
   };
+
 };
 
-//blog__row-hidden
