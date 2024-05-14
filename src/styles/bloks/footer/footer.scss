@@ -98,7 +98,7 @@
       flex-direction: column;
       gap: 20px;
 
-      .footer__contact-phone > a {
+      .footer__contact-phone>a {
         font-family: $font-family;
         font-weight: 300;
         font-size: 13px;
@@ -106,7 +106,7 @@
         text-decoration: none;
       }
 
-      .footer__contact-mail > a {
+      .footer__contact-mail>a {
         color: #151618;
       }
     }
