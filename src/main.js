@@ -9,13 +9,11 @@ window.onload = () => {
   showBlockItem();
 
   burgerBtn.onclick = function () {
-    //burgerBtn.classList.toggle("active");
     hideMenu();
   };
 
   menuMobile.onclick = function () {
     hideMenu();
-    //burgerBtn.classList.remove("active");
   };
 
   function hideMenu() {
@@ -34,6 +32,4 @@ window.onload = () => {
   blogBtn.onclick = function () {
     blogItem.classList.toggle("hidden");
   };
-
 };
-
